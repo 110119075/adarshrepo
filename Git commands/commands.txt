@@ -1,1 +1,19 @@
-
+git init                           //creating a git repo in local pc that enables the usage of git commands
+git clone <url>                    // cloning a remote repository into local pc
+git branch                         // seeing in which branch we are present and the branches available
+git checkout <branch_name>         // moving from one branch to amother
+git checkout -b <branch_name>      //making a new branch (can be done via git branch <branch_name>)
+git status                         // getting whether staged or not, commited or not, and the file name
+git diff                           // changes made
+git add <The red line>             // moving to staged state
+git commit -m "<some_message>"     //making a commit(lock) when in stage state
+git log                      // getting all previous commit info and commit id
+git merge                    // merging a branch to master(done in master branch) and manually removing conflicts if it arises
+git pull                     //pulling recent changes made in remote master
+git push                     //pushing our changes from local master to remote master
+git branch -d <branch_name>  //deleteing a branch
+git reset --hard             //the prev commit reverts
+git reset --soft             //the prev commit is removed but changes remains 
+git restore --staged <file_name>                 // moved to unstaged state
+git restore <file_name>      
+git commit --amend           //to save in the same commit    <esc +q + enter>
