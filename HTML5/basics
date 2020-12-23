@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Supa cool</title>
+		<meta charset= "utf-8">
+	</head>
+
+	<header>
+		<h2>MAJOR GENERAL</h2>
+	</header>
+
+	<nav>
+		<ul>
+			<li>A</li>
+			<li>B</li>
+			<li>C</li>
+			<li>D</li>
+		</ul>
+	</nav>
+
+	<section><h2>Section</h2>
+	<article><h3>Article</h3></article>
+	</section>
+	<br>
+
+	<body>
+		<details>
+			<summary>hi hi ha ha</summary>
+			<p> ooof!!!!</p>
+		</details>
+		<br>
+		<figure>
+			<img src= "C:\Users\P.ADARSH\Pictures\Screenshots\Screenshot(398).png" width = "400" height ="300">
+			<figcaption>Hey we are reading this!!
+			</figcaption>
+		<br><br>asdffjhsdaljhf<b><u><i>jas</i></u></b>hfjahjahjfashjahjhjfhahh<wbr>ajfkldjhahksdfhgskghflshgfjsjdhdjhjshdkjhdsjhgsjghdjhreiuhiuhfghsjkdfgjhrihfkjhgiuhsdjkhgsdhkjghs<br><br>
+		
+		<form>
+			color :<input type = "color" name ="color"><br>
+			DOB : <input type="date" ><br>
+			DOB : <input type="datetime-local" name ="datetime" ><br>
+			Email : <input type = "email" name = "emailid"><br>
+			month and year : <input type = "month" name = "month"><br>
+			Quantity (between 1 and 5): <input type ="number" name= "quantity" min ="1" max= "5"><br>
+			Points (between 1 and 10): <input type ="range" min= "1" max ="10"><br>
+			Submit : <input type = "submit">
+		</form>
+	
+		<canvas id="CanvasId" width= "200" height= "200" style = "border:3px solid #000000">
+		</canvas>
+
+		<svg id = "SvgId" width= "200" height ="200" style = "border:3px solid #000000"><circle cx="100" cy="100" r="80" stroke ="yellow" stroke-width ="3" fill="red"></svg>
+
+		<footer><p>This is footer</p></footer>
+	</body>
+</html>
